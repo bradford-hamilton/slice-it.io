@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const createHash = require('./hash');
 const hashLen = 8;
 
-const baseUrl = process.env.BASE_URL || 'http://localhost:1337';
+const baseUrl = process.env.BASE_URL;
 
 /********************
       SCHEMA

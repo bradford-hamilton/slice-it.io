@@ -19,7 +19,7 @@ nav .column.social {
   font-size: 1.8em;
   line-height: 1.5em;
   font-weight: bold;
-  color: #242424;
+  color: #595959;
   letter-spacing: 0.04em;
 }
 
@@ -28,16 +28,16 @@ nav .column.social {
   line-height: 1em;
 }
 .github i {
-  color: #242424;
+  color: #595959;
   text-decoration: none;
 }
 
 .github:hover i {
-  color: #f2f2f2;
+  color: #1d1d1d;
 }
 
 .brand-logo:hover {
-  color: #f2f2f2;
+  color: #1d1d1d;
 }
 
 header .desc {
@@ -76,6 +76,7 @@ main form input[type="text"] {
 main form input[type="text"]:focus {
   border: 1px solid #EAEAEA;
   background-color: #FFF;
+  box-shadow: 3px 3px 5px #464444;
 }
 
 main form input[type="submit"] {
