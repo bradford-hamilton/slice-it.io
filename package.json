@@ -1,0 +1,35 @@
+{
+  "name": "slice-it.io",
+  "version": "1.0.0",
+  "description": "A simple URL shortener",
+  "main": "slice-it.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradford-hamilton/slice-it.io.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "link",
+    "slice",
+    "reduce",
+    "web",
+    "app",
+    "shorten"
+  ],
+  "author": "Bradford Lamson-Scribner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradford-hamilton/slice-it.io/issues"
+  },
+  "homepage": "https://github.com/bradford-hamilton/slice-it.io#readme",
+  "dependencies": {
+    "hapi": "^14.2.0",
+    "inert": "^4.0.1",
+    "joi": "^9.0.4",
+    "mongoose": "^4.5.8"
+  }
+}
