@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>slice-it - Simple URL Shortener</title>
+    <meta name="description" content="A simple URL shortener">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="row">
+
+            <div class="column">
+              <a class='brand-logo' href="http://localhost:1337">slice-it</a>
+            </div>
+
+            <div class="column social">
+              <a class='github' href="https://github.com/bradford-hamilton/slice-it.io" target='_blank'>
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row desc">
+            <p>A simple, effortless URL shortener for your links! Save space and share content in a righteous way with slice-it, give it a try.<p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+          <form id="shorten-form" method="POST">
+            <div class="icon-container">
+              <input type="text" placeholder="Paste your URL here..." name="url">
+              <i class="fa fa-link"></i>
+            </div>
+            <input type="submit" value="Slice It!">
+          </form>
+
+          <div class="row">
+            <div class="column">
+              <section id="shortened">
+                <p>
+                  <em>Your sliced link: </em>
+                  <a id="link" href="#" target="_blank">Loading...</a>
+                </p>
+                <p class='dark-p'>
+                  Right-click or Tap &amp; Hold the link and copy the address to clipboard and start using it.
+                </p>
+              </section>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/bluebird/latest/bluebird.min.js"></script>
+    <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+    <script src="public/script.js"></script>
+  </body>
+</html>

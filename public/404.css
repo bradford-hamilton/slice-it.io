@@ -1,0 +1,14 @@
+body {
+  margin: 5rem;
+  background-color: #ededed;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+p {
+  font-size: 1.2rem;  
+}
+
+a {
+  font-family: sans-serif;
+  font-size: 2rem;
+}

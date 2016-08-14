@@ -1,0 +1,124 @@
+body {
+  background-color: #388ED5;
+}
+
+nav {
+  height: 55px;
+  background: #f9ff8c;
+  overflow: hidden;
+  padding-top: 7px;
+  vertical-align: middle;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+nav .column.social {
+  text-align: right;
+}
+
+.brand-logo {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: bold;
+  color: #242424;
+  letter-spacing: 0.04em;
+}
+
+.github {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+.github i {
+  color: #242424;
+  text-decoration: none;
+}
+
+.github:hover i {
+  color: #f2f2f2;
+}
+
+.brand-logo:hover {
+  color: #f2f2f2;
+}
+
+header .desc {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+p {
+  color: #f0eded;
+}
+
+.dark-p {
+  color: #2d2d2d
+}
+
+main form .icon-container {
+  position: relative;
+}
+
+main form i.fa.fa-link {
+  position: absolute;
+  top: 10px; left: 15px;
+  color: #AAAAAA;
+}
+
+main form input[type="text"] {
+  width: 73%;
+  float: left;
+  padding-left: 40px;
+  border: 1px solid #EAEAEA;
+  border-bottom: 2px solid #EAEAEA;
+  background-color: #FFFFFF;
+}
+
+main form input[type="text"]:focus {
+  border: 1px solid #EAEAEA;
+  background-color: #FFF;
+}
+
+main form input[type="submit"] {
+  width: 25%;
+  float: right;
+  background-color: #FF8D00;
+  clear: right;
+  border: none;
+  text-shadow: 0 2px rgba(0,0,0,0.1);
+  padding: 0;
+}
+
+main form input[type="submit"]:hover {
+  background-color: #ffa332;
+}
+
+main section#shortened {
+  opacity: 0;
+  color: #AAAAAA;
+  transition: all 0.5s ease;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  background: #FFF;
+  padding: 20px;
+}
+
+main section#shortened em {
+  font-weight: bold;
+  color: #666666;
+  font-style: normal;
+}
+
+main section#shortened a#link {
+  background: rgba(167, 204, 252, 0.3);
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: #555555;
+}
+
+@media (max-width: 643px) {
+  .github {
+    display: none;
+  }
+}
